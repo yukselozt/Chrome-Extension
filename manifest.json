@@ -1,9 +1,9 @@
 {
-  "name": "FontFinder",
+  "name": "Kuram",
   "version": "1.0",
   "manifest_version": 2,
   "background": {
-    "scripts": ["./FontFinder.js"]
+    "scripts": ["./Kuram.js"]
   },
   "browser_action": {
     "default_popup": "popup.html",

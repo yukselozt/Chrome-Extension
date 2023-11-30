@@ -10,12 +10,36 @@
     <link rel="stylesheet" href="popup.css" />
   </head>
   <body>
-    <div id="container">
-      <h1>Welcome to Gradient Generator</h3>
-      <button id="button">ClickMe</button>
-      <script src="FontFinder.js"></script>
-      <p id="biriniciRenk"></p>
-      <p id="ikinciRenk"></p>
+    <div id="card">
+      <div class="search">
+        <input type="text" placeholder="Enter city name" spellcheck="false" />
+        <button class="button">Click</button>
+      </div>
+      <div class="error">
+        <p>Invalid City Name</p>
+      </div>
+      <div class="weather">
+        <img src="/assets/clouds.png" class="weather-icon" alt="" />
+        <h1 class="temp" id="temp">22 C</h1>
+        <h2 class="city" id="city">Ankara</h2>
+        <div class="details">
+          <div class="col">
+            <img src="/assets/humidity.png" alt="" />
+            <div>
+              <p class="humidity" id="humidity">70 %</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="/assets/wind.png" alt="" />
+            <div>
+              <p class="wind" id="wind">7 km/h</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <script src="Kuram.js"></script>
   </body>
 </html>
